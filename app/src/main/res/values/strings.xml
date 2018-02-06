@@ -1,0 +1,20 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+
+    <!-- Header text for list of Toppings [CHAR LIMIT = 20] -->
+    <string name="toppings">Toppings</string>
+    <!-- text for thank you in the .java file [CHAR LIMIT = 20] -->
+    <string name="thank_you">Thank you!</string>
+
+    <!--
+    Total price for the order summary. It will be shown in the format of
+    "Total: $10" where $10 is the price. [CHAR LIMIT=NONE]
+  -->
+    <string name="order_summary_price">Total: <xliff:g example="$10" id="price">€</xliff:g></string>
+
+    <!--
+      Subject line for the order summary email. It will be in the format of
+      "Just Java order for Esther where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_name">Name: <xliff:g example="Esther" id="name"></xliff:g></string>
+</resources>
